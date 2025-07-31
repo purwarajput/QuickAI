@@ -28,8 +28,8 @@ const Testimonial = () => {
     return (
         <div className='px-4 sm:px-20 xl:px-32 py-24'>
             <div className='text-center'>
-                <h2 className='text-slate-700 text-[42px] font-semibold'>Loved by Creators</h2>
-                <p className='text-gray-500 max-w-lg mx-auto'>Don't just take our word for it. Here's what our users are saying.</p>
+                <h2 className='text-slate-700 text-[42px] font-semibold'>Trusted by Creators Worldwide</h2>
+                <p className='text-gray-500 max-w-lg mx-auto'>Real stories. Real impact. See how creators like you are transforming their workflow with our AI tools.</p>
             </div>
             <div className='flex flex-wrap mt-10 justify-center'>
                 {dummyTestimonialData.map((testimonial, index) => (
